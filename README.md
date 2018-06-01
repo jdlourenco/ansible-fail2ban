@@ -12,8 +12,8 @@ Below is a list of default values along with a description of what they do.
 
 ```
 # Which log level should it be output as?
-# 1 = ERROR, 2 = WARN, 3 = INFO, 4 = DEBUG
-fail2ban_loglevel: 3
+# ERROR, WARN, INFO, DEBUG
+fail2ban_loglevel: INFO
 
 # Where should log outputs be sent to?
 # SYSLOG, STDERR, STDOUT, file
